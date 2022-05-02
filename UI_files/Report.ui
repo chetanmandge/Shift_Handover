@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="3" colspan="5">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Utility Maintenance- Shift Handover Report</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Shift incharge :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="maximumSize">
+       <size>
+        <width>50</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>To:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="7">
+     <widget class="QLineEdit" name="lineEdit_6"/>
+    </item>
+    <item row="3" column="0" colspan="9">
+     <widget class="QTableWidget" name="tableWidget_2">
+      <property name="textElideMode">
+       <enum>Qt::ElideLeft</enum>
+      </property>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Sr. No.</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Utility Equipment
+/Area Details</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Downtime in
+Numbers</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Downtime in
+ Minutes</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Downtime
+Form 17/16	</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignJustify|AlignVCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Remark
+</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>1</string>
+       </property>
+      </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string>HT Yard</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>2</string>
+       </property>
+      </item>
+      <item row="1" column="1">
+       <property name="text">
+        <string>DG Yard</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>3</string>
+       </property>
+      </item>
+      <item row="2" column="1">
+       <property name="text">
+        <string>Air Compressor Area</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>4</string>
+       </property>
+      </item>
+      <item row="3" column="1">
+       <property name="text">
+        <string>Fire House Area</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>5</string>
+       </property>
+      </item>
+      <item row="4" column="1">
+       <property name="text">
+        <string>PT L-I</string>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>6</string>
+       </property>
+      </item>
+      <item row="5" column="1">
+       <property name="text">
+        <string>PH L-II</string>
+       </property>
+      </item>
+      <item row="6" column="0">
+       <property name="text">
+        <string>7</string>
+       </property>
+      </item>
+      <item row="6" column="1">
+       <property name="text">
+        <string>STP Plant</string>
+       </property>
+      </item>
+      <item row="7" column="0">
+       <property name="text">
+        <string>8</string>
+       </property>
+      </item>
+      <item row="7" column="1">
+       <property name="text">
+        <string>Softner Plant</string>
+       </property>
+      </item>
+      <item row="8" column="0">
+       <property name="text">
+        <string>9</string>
+       </property>
+      </item>
+      <item row="8" column="1">
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item row="9" column="0">
+       <property name="text">
+        <string>10</string>
+       </property>
+      </item>
+      <item row="9" column="1">
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item row="10" column="0">
+       <property name="text">
+        <string>11</string>
+       </property>
+      </item>
+      <item row="11" column="0">
+       <property name="text">
+        <string>12</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label">
+      <property name="maximumSize">
+       <size>
+        <width>50</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>From :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="7">
+     <widget class="QLineEdit" name="lineEdit_5"/>
+    </item>
+    <item row="8" column="8">
+     <widget class="QPushButton" name="pushButton">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>submit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0" colspan="2">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="maximumSize">
+       <size>
+        <width>120</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Download Report</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1" colspan="3">
+     <widget class="QLineEdit" name="lineEdit_3"/>
+    </item>
+    <item row="0" column="8">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Logout</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Shift major activity :-</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="5">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="7" column="5" colspan="2">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>Handover By :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QDateEdit" name="dateEdit">
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="displayFormat">
+       <string>dd-MM-yy</string>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
+      </property>
+      <property name="currentSectionIndex">
+       <number>0</number>
+      </property>
+      <property name="date">
+       <date>
+        <year>2021</year>
+        <month>10</month>
+        <day>6</day>
+       </date>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="5">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Shift :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="5" colspan="2">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>Takeover By:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Date :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="6" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_4"/>
+    </item>
+    <item row="6" column="4">
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1" colspan="8">
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>700</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="dragEnabled">
+       <bool>false</bool>
+      </property>
+      <attribute name="horizontalHeaderMinimumSectionSize">
+       <number>60</number>
+      </attribute>
+      <attribute name="horizontalHeaderDefaultSectionSize">
+       <number>106</number>
+      </attribute>
+      <attribute name="verticalHeaderCascadingSectionResizes">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderDefaultSectionSize">
+       <number>29</number>
+      </attribute>
+      <row>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>7</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>9</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>10</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>11</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>12</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>13</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>14</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>15</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>16</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>17</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>18</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>19</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>20</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>21</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>22</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>23</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>24</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>25</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Time</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Plan</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Action</string>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="foreground">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>07:00 AM</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>08:00 AM</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>09:00 AM</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>10:00 AM</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>11:00 AM</string>
+       </property>
+      </item>
+      <item row="5" column="0">
+       <property name="text">
+        <string>12:00 AM</string>
+       </property>
+      </item>
+      <item row="6" column="0">
+       <property name="text">
+        <string>01:00 PM</string>
+       </property>
+      </item>
+      <item row="7" column="0">
+       <property name="text">
+        <string>02:00 PM</string>
+       </property>
+      </item>
+      <item row="8" column="0">
+       <property name="text">
+        <string>03:00 PM</string>
+       </property>
+      </item>
+      <item row="9" column="0">
+       <property name="text">
+        <string>04:00 PM</string>
+       </property>
+      </item>
+      <item row="10" column="0">
+       <property name="text">
+        <string>05:00 PM</string>
+       </property>
+      </item>
+      <item row="11" column="0">
+       <property name="text">
+        <string>06:00 PM</string>
+       </property>
+      </item>
+      <item row="12" column="0">
+       <property name="text">
+        <string>07:00 PM</string>
+       </property>
+      </item>
+      <item row="13" column="0">
+       <property name="text">
+        <string>08:00 PM</string>
+       </property>
+      </item>
+      <item row="14" column="0">
+       <property name="text">
+        <string>09:00 PM</string>
+       </property>
+      </item>
+      <item row="15" column="0">
+       <property name="text">
+        <string>10:00 PM</string>
+       </property>
+      </item>
+      <item row="16" column="0">
+       <property name="text">
+        <string>11:00 PM</string>
+       </property>
+      </item>
+      <item row="17" column="0">
+       <property name="text">
+        <string>12:00 AM</string>
+       </property>
+      </item>
+      <item row="18" column="0">
+       <property name="text">
+        <string>01:00 AM</string>
+       </property>
+      </item>
+      <item row="19" column="0">
+       <property name="text">
+        <string>02:00 AM</string>
+       </property>
+      </item>
+      <item row="20" column="0">
+       <property name="text">
+        <string>03:00 AM</string>
+       </property>
+      </item>
+      <item row="21" column="0">
+       <property name="text">
+        <string>04:00 AM</string>
+       </property>
+      </item>
+      <item row="22" column="0">
+       <property name="text">
+        <string>05:00 AM</string>
+       </property>
+      </item>
+      <item row="23" column="0">
+       <property name="text">
+        <string>06:00 AM</string>
+       </property>
+      </item>
+      <item row="24" column="0">
+       <property name="text">
+        <string>07:00 AM</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
